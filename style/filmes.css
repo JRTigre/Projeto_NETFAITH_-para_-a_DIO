@@ -1,0 +1,76 @@
+/* barra lateral pagina filmes */
+label img{
+    height: 30px;
+    width: 30px;
+}
+
+#check{display: none;}
+#icone{
+    
+    cursor:pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.menu{
+    background-color: rgba(0,0,0,.50);
+    height: 100%;
+    width: 225px;
+    position: absolute;
+    transition: all .2s linear;
+    margin-left: -150px;
+
+}
+
+ .bars{
+     width:100%;
+     position: absolute;
+     top: 60px;
+ }
+
+ .blateral{
+     text-decoration: none;
+
+ }
+ .link{
+     background-color: #494950;
+     padding: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+     transition: all .2 linear;
+     color:#f4f4f9;
+     border-bottom: 2px solid #222;
+     
+ }
+
+.link:hover{
+    background-color:rgb(00, 200, 254);
+}
+
+#check:checked~.menu{
+    transform: translateX(150px);
+    
+}
+
+
+
+.iconesbars{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    margin-top: -45px ;
+    margin-left: 170px;
+}
+
+.galeria1{
+
+  
+  margin-bottom: 40px;
+  margin-left: 80px;
+
+}
+
+
+

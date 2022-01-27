@@ -1,0 +1,143 @@
+
+:root{
+    --Azul:rgb(00, 200, 255);
+    --preta:#141414 ;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roma', Times, serif;
+    color:white;
+}
+
+
+/* barra de navegacao*/
+header .container{
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+ position:relative;
+ background: var(--preta);
+
+}
+
+header .logo{
+    font-family: 'Times New Roman', Times, serif,' Arial', sans-serif;
+    color: var(--Azul);
+    font-size: 40px;
+    margin-left: 10px;
+    
+
+}
+
+header nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aaa;
+    text-decoration: none;
+    margin-right: 20px;
+    z-index: 1;
+    position: relative;
+    
+  
+
+}
+header nav a:hover{
+    color:var(--Azul)
+    
+}
+
+/* fim da barra de navegaao*/
+
+
+
+/*conatiner do video*/
+  .container2{
+
+     display: flex;
+
+      
+  }
+ video{
+    width: 100%;
+    margin-top: -100px;
+    
+    
+
+    
+     
+ }
+
+ /* titulo, descricao,botoes*/
+
+ .container3{
+ 
+    margin-left: 15px;
+    margin-top: -290px;
+    position: relative;
+    z-index: 1;
+    
+ }
+
+ .titulo{
+     font-size: 30px;
+     margin-bottom: 20px;
+     text-shadow:grey 2px 1px 3px;
+ }
+ .descricao{
+width: 50%;
+margin-bottom: 10px;
+text-shadow:grey 2px 1px 3px;
+ }
+
+ .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor:pointer;
+    transition: .3s ease all ;
+    
+    
+    
+
+
+ }
+
+ .botao:hover{
+
+    background-color: white;
+    color: black;
+ }
+
+ .botao i {
+     margin-right: 8px;
+ }
+
+ /* coarrosel*/
+ 
+ .box-filme{
+
+     margin-top: 8%;
+     height: 300px;
+     width: 100%;
+     display: block;
+    
+ }
+
+ .carrosel-filme{
+     background: black;
+  
+   
+
+ }
